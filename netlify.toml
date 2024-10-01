@@ -1,6 +1,11 @@
 [build]
-  command = "next build"
-  publish = ".next" # or "out" if using static export
+  command = "npm run build"  # Ensures that your package scripts are run
+  publish = ".next"  # Use 'out' for static exports if running 'next export'
+
+[context.production]
+  environment = { 
+    NODE_ENV = "production"
+  }
 
 [[plugins]]
-  package = "@netlify/plugin-nextjs"
+  package = "@netlify/plugin-nextjs"  # Make sure you're using the plugin for Next.js
