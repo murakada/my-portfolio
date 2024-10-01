@@ -1,5 +1,5 @@
-import "../app/assets/css/tailwind.css"
-import '../app/assets/css/materialdesignicons.min.css';
+// import "../app/assets/css/tailwind.css"
+// import '../app/assets/css/materialdesignicons.min.css';
 import { Poppins } from 'next/font/google'
 
 const poppins = Poppins({ 
