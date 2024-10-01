@@ -1,8 +1,6 @@
 [build]
-  publish = "build"
-  command = "npm run build"
+  command = "next build"
+  publish = ".next" # or "out" if using static export
 
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
