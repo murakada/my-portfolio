@@ -9,8 +9,8 @@ const poppins = Poppins({
  })
 
 export const metadata = {
-  title: 'Vijay Kumar - Next Js Personal Portfolio Template',
-  description: 'Vijay Kumar - Next Js Personal Portfolio Template',
+  title: 'Vijay Kumar Murakada',
+  description: 'Vijay Kumar Murakada Senior Software Engineer',
 }
 
 export default function RootLayout({ children }) {
