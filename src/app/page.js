@@ -1,9 +1,19 @@
-import Image from "next/image";
+'use client'
+import React,{useEffect} from "react";
+import dynamic from 'next/dynamic'
 
-export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      Vijay Kumar Murakada
-    </div>
-  );
+const HeroOne = dynamic(() => import('./components/HeroOne'));
+
+export default function Index(){
+    useEffect(() => {
+        if (typeof window !== "undefined"){
+            document.documentElement.setAttribute("dir", "ltr");
+            document.documentElement.classList.add('light');
+        }
+      }, []);
+    return(
+        <>
+            <HeroOne/>
+        </>
+    )
 }

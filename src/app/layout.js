@@ -1,5 +1,5 @@
-// import "../app/assets/css/tailwind.css"
-// import '../app/assets/css/materialdesignicons.min.css';
+import "../app/assets/css/tailwind.css"
+import '../app/assets/css/materialdesignicons.min.css';
 import { Poppins } from 'next/font/google'
 
 const poppins = Poppins({ 
@@ -9,8 +9,8 @@ const poppins = Poppins({
  })
 
 export const metadata = {
-  title: 'Vijay Kumar - Next Js Personal Portfolio Template',
-  description: 'Vijay Kumar - Next Js Personal Portfolio Template',
+  title: 'Vijay - Next Js Personal Portfolio Template',
+  description: 'Vijay - Next Js Personal Portfolio Template',
 }
 
 export default function RootLayout({ children }) {
