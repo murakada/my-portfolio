@@ -521,6 +521,7 @@ video {
     max-width: 1024px;
     padding-right: 45px;
     padding-left: 45px;
+    height: 80vh;
   }
 }
 @media (min-width: 1280px){
