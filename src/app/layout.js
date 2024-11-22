@@ -16,13 +16,9 @@ export const metadata = {
   themeColor: '#000000',
   robots: 'index, follow',
   canonical: 'https://www.vijaykumarmurakada.in',
-  icons: [
-    { rel: 'icon', href: '/favicon.ico', sizes: '32x32' },
-    { rel: 'apple-touch-icon', href: '/apple-touch-icon.png', sizes: '180x180' },
-  ],
   openGraph: {
     title: 'Vijay Kumar Murakada - Web Developer Portfolio',
-    description: 'A skilled web developer specializing in ReactJS, JavaScript, NextJS, GatsbyJS, and Tailwind CSS. Explore my projects and reach out for collaboration!',
+    description: 'A skilled web developer specializing in ReactJS, JavaScript, NextJS, MicroFrontEnd, and Tailwind CSS. Explore my projects and reach out for collaboration!',
     url: 'https://www.vijaykumarmurakada.in',
     type: 'website',
   },
