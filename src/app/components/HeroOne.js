@@ -19,7 +19,9 @@ export default function HeroOne(){
                                 // Same substring at the start will only be typed out once, initially
                                 'Vijay Kumar Murakada',
                                 1000, // wait 1s before replacing "Mice" with "Hamsters"
-                                'Website Designer',
+                                'Full Stack Developer',
+                                1000,
+                                'Senior Software Engineer',
                                 1000,
                                 'Web Developer',
                                 1000,
