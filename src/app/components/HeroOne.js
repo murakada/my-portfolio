@@ -38,7 +38,7 @@ export default function HeroOne(){
                     
                         <div className="mt-6">
                             {/* <Link href="" className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white rounded-md">Hire Me</Link> */}
-                            <Link href="/resume/Vijay Kumar Murakada Resume.pdf" className="btn bg-amber-500/10 hover:bg-amber-500 border-amber-500/10 hover:border-amber-500 text-amber-500 hover:text-white rounded-md ms-1">Download CV</Link>
+                            <a href="/resume/Vijay Kumar Murakada Resume.pdf" className="btn bg-amber-500/10 hover:bg-amber-500 border-amber-500/10 hover:border-amber-500 text-amber-500 hover:text-white rounded-md ms-1">Download CV</a>
                         </div>
                     </div>
 
