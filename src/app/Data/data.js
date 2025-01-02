@@ -143,35 +143,6 @@ export const blogData = [
     },
 ]
 export const review = [
-    {
-        name:'Thomas Israel',
-        designation:'Manager',
-        image:'/images/client/01.jpg',
-        desc:"Obviously I am a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development."
-    },
-    {
-        name:'Thomas Israel',
-        designation:'Manager',
-        image:'/images/client/01.jpg',
-        desc:"Obviously I am a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development."
-    },
-    {
-        name:'Thomas Israel',
-        designation:'Manager',
-        image:'/images/client/01.jpg',
-        desc:"Obviously I am a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development."
-    },
-    {
-        name:'Thomas Israel',
-        designation:'Manager',
-        image:'/images/client/01.jpg',
-        desc:"Obviously I am a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development."
-    },
-    {
-        name:'Thomas Israel',
-        designation:'Manager',
-        image:'/images/client/01.jpg',
-        desc:"Obviously I am a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development."
-    },
+    
 ]
 

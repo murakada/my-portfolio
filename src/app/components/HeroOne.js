@@ -36,10 +36,10 @@ export default function HeroOne(){
                         <span className="typewrite text-amber-500" data-period="2000" data-type='[ "Vijay Kumar", "Website Designer", "Web Developer", "UI/UX Designer" ]'> <span className="wrap"></span> </span></h4>
                         <p className="text-slate-400 max-w-xl">Senior Software Engineer with 6 years of expertise in React.js, Next.js, TypeScript, Tailwind CSS, and microfrontend architecture. Proficient in building scalable, responsive web applications. Strong leader, mentor, and quick learner, committed to delivering innovative solutions using cutting-edge technologies to drive impactful results.</p>
                     
-                        {/* <div className="mt-6">
-                            <Link href="" className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white rounded-md">Hire Me</Link>
-                            <Link href="" className="btn bg-amber-500/10 hover:bg-amber-500 border-amber-500/10 hover:border-amber-500 text-amber-500 hover:text-white rounded-md ms-1">Download CV</Link>
-                        </div> */}
+                        <div className="mt-6">
+                            {/* <Link href="" className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white rounded-md">Hire Me</Link> */}
+                            <Link href="/resume/Vijay Kumar Murakada Resume.pdf" className="btn bg-amber-500/10 hover:bg-amber-500 border-amber-500/10 hover:border-amber-500 text-amber-500 hover:text-white rounded-md ms-1">Download CV</Link>
+                        </div>
                     </div>
 
                     <div className="relative">
