@@ -1,52 +1,59 @@
-import * as Icon from 'react-feather';
 export const expertiseData = [
     {
-        title:'Developing',
-        Icon: Icon.Monitor
+        title:'React JS',
+        icon: 'reactjs'
     },
     {
-        title:'Mac OS',
-        Icon: Icon.StopCircle
+        title:'Next JS',
+        icon: 'nextjs'
     },
     {
-        title:'Cinema',
-        Icon: Icon.Video
+        title:'JavaScript',
+        icon: 'js'
     },
     {
-        title:'Coffee',
-        Icon: Icon.Coffee
+        title:'Redux',
+        icon: 'redux'
     },
     {
-        title:'Music',
-        Icon: Icon.Music
+        title:'TypeScript',
+        icon: 'typescript'
     },
     {
-        title:'Games',
-        Icon: Icon.Watch
+        title:'Storybook JS',
+        icon: 'storybook'
     },
     {
-        title:'Designing',
-        Icon: Icon.Box
+        title:'Babel',
+        icon: 'babel'
     },
     {
-        title:'Sports',
-        Icon: Icon.Target
+        title:'Tailwind CSS',
+        icon: 'tailwindcss'
     },
     {
-        title:'Painting',
-        Icon: Icon.PenTool
+        title:'Webpack',
+        icon: 'webpack'
     },
     {
-        title:'Reading',
-        Icon: Icon.Book
+        title:'Node JS',
+        icon: 'nodejs'
     },
     {
-        title:'Android',
-        Icon: Icon.Smartphone
+        title:'HTML5',
+        icon: 'html5'
     },
     {
-        title:'Other Activity',
-        Icon: Icon.Activity
+        title:'CSS3',
+        icon: 'css3'
+    },
+    {
+        title:'SASS',
+        icon: 'sass'
+    },
+    {
+        title:'GIT',
+        icon: 'git'
     },
 ]
 export const servicesData = [
@@ -143,6 +150,35 @@ export const blogData = [
     },
 ]
 export const review = [
-    
+    {
+        name:'Thomas Israel',
+        designation:'Manager',
+        image:'/images/client/01.jpg',
+        desc:"Obviously I am a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development."
+    },
+    {
+        name:'Thomas Israel',
+        designation:'Manager',
+        image:'/images/client/01.jpg',
+        desc:"Obviously I am a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development."
+    },
+    {
+        name:'Thomas Israel',
+        designation:'Manager',
+        image:'/images/client/01.jpg',
+        desc:"Obviously I am a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development."
+    },
+    {
+        name:'Thomas Israel',
+        designation:'Manager',
+        image:'/images/client/01.jpg',
+        desc:"Obviously I am a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development."
+    },
+    {
+        name:'Thomas Israel',
+        designation:'Manager',
+        image:'/images/client/01.jpg',
+        desc:"Obviously I am a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development."
+    },
 ]
 
