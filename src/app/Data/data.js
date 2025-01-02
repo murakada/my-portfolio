@@ -56,39 +56,39 @@ export const expertiseData = [
         icon: 'git'
     },
 ]
-export const servicesData = [
-    {
-        title:'UX / UI Design',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        Icon: Icon.Airplay
-    },
-    {
-        title:'Ios App Designer',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        Icon: Icon.Aperture
-    },
-    {
-        title:'Photography',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        Icon: Icon.Camera
-    },
-    {
-        title:'Graphic Designer',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        Icon: Icon.Compass
-    },
-    {
-        title:'Web Security',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        Icon: Icon.Settings
-    },
-    {
-        title:'Web Security',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        Icon: Icon.Watch
-    },
+// export const servicesData = [
+//     {
+//         title:'UX / UI Design',
+//         desc:'The phrasal sequence of the is now so that many campaign and benefit',
+//         Icon: Icon.Airplay
+//     },
+//     {
+//         title:'Ios App Designer',
+//         desc:'The phrasal sequence of the is now so that many campaign and benefit',
+//         Icon: Icon.Aperture
+//     },
+//     {
+//         title:'Photography',
+//         desc:'The phrasal sequence of the is now so that many campaign and benefit',
+//         Icon: Icon.Camera
+//     },
+//     {
+//         title:'Graphic Designer',
+//         desc:'The phrasal sequence of the is now so that many campaign and benefit',
+//         Icon: Icon.Compass
+//     },
+//     {
+//         title:'Web Security',
+//         desc:'The phrasal sequence of the is now so that many campaign and benefit',
+//         Icon: Icon.Settings
+//     },
+//     {
+//         title:'Web Security',
+//         desc:'The phrasal sequence of the is now so that many campaign and benefit',
+//         Icon: Icon.Watch
+//     },
 
-]
+// ]
 export const project = [
    {
     image: '/images/works/1.jpg',
