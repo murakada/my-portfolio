@@ -1,5 +1,6 @@
 import React from "react";
 import StackIcon from "tech-stack-icons";
+import {expertiseData} from "../Data/data"
 
 
 export default function Skills(){
