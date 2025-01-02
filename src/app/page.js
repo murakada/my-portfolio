@@ -3,6 +3,7 @@ import React,{useEffect} from "react";
 import dynamic from 'next/dynamic'
 
 const HeroOne = dynamic(() => import('./components/HeroOne'));
+const Skills = dynamic(()=> import('./components/Skills'))
 
 export default function Index(){
     useEffect(() => {
@@ -14,6 +15,7 @@ export default function Index(){
     return(
         <>
             <HeroOne/>
+            <Skills />
         </>
     )
 }
