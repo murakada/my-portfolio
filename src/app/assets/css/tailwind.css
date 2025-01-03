@@ -1013,8 +1013,8 @@ video {
       -ms-flex-pack: justify !important;
           justify-content: space-between !important;
 }
-.gap-\[30px\]{
-  gap: 30px !important;
+.gap-\[50px\]{
+  gap: 50px !important;
 }
 .overflow-hidden{
   overflow: hidden !important;
