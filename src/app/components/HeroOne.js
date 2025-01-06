@@ -38,21 +38,21 @@ export default function HeroOne(){
                     
                         <div className="mt-6">
                             {/* <Link href="" className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white rounded-md">Hire Me</Link> */}
-                            <a href="/resume/Vijay Kumar Murakada Resume.pdf" className="btn bg-amber-500/10 hover:bg-amber-500 border-amber-500/10 hover:border-amber-500 text-amber-500 hover:text-white rounded-md ms-1">Download CV</a>
+                            <a href="/resume/Vijay Kumar Murakada Resume.pdf" download className="btn bg-amber-500/10 hover:bg-amber-500 border-amber-500/10 hover:border-amber-500 text-amber-500 hover:text-white rounded-md ms-1">Download CV</a>
                         </div>
                     </div>
 
                     <div className="relative">
                         <Image height={0} width={0} sizes="100vw" style={{height:"auto", width:"100%"}}  src="/images/hero/7.jpg" alt=""/>
 
-                        <div className="relative !md:absolute lg:bottom-20 md:bottom-10 bottom-2 ltr:md:-left-5 ltr:left-2 rtl:md:-right-5 rtl:right-2 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 m-3 w-44 text-center">
+                        {/* <div className="relative !md:absolute lg:bottom-20 md:bottom-10 bottom-2 ltr:md:-left-5 ltr:left-2 rtl:md:-right-5 rtl:right-2 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 m-3 w-44 text-center">
                             <span className="text-3xl font-medium mb-0"><span className="counter-value font-bold" data-target="125"> <CountUp
                                             start={6}
                                             className="counter-value"
                                             end={10}
                                             duration={2.75} /></span>+</span>
                             <h6 className="text-sm text-slate-400 mt-1">Project Completed</h6>
-                        </div>
+                        </div> */}
 
                         <div className="relative !md:absolute lg:top-80 md:top-56 top-48 ltr:md:-right-0 ltr:right-2 rtl:md:-left-0 rtl:left-2 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 m-3 w-44 text-center">
                             <h6 className="font-semibold">Web Developer</h6>
