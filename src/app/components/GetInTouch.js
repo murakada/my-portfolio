@@ -2,7 +2,9 @@
 
 export default function GetInTouch(){
        return (
-        <div></div>
+        <div>
+              Vijay Kumar Murakada
+        </div>
        )
 }
 
