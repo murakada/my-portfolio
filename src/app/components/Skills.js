@@ -6,7 +6,7 @@ import {expertiseData} from "../Data/data"
 export default function Skills(){
     return (
         <section>
-            <div className="container md:mt-24 mt-16">
+            <div className="container md:mt-24 md:mb-24 mt-16 mb-16">
                 <div className="grid grid-cols-1 pb-8 text-center">
                     <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Skills</h3>
 
@@ -15,7 +15,7 @@ export default function Skills(){
                          enabling independent development and deployment of frontend components. Additionally, I’ve worked with GraphQL, Express.js, and MongoDB to build efficient APIs and handle data storage. My experience also includes deploying applications on AWS, Vercel, and Netlify, utilizing Docker for containerization. With a focus on clean, maintainable code, I continuously strive to stay updated on industry trends and enhance performance through modern tools and practices.</p>
                 </div>
 
-                <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 mt-8 gap-[50px]">
+                <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 mt-8 mb-8 gap-[50px]">
                     {expertiseData.map((item,index)=>{
                         return(
                             <div className="flex group shadow shadow-gray-200 dark:shadow-gray-800 dark:hover:shadow-gray-700 items-center p-3 rounded-lg bg-white dark:bg-slate-900 hover:bg-amber-500 cursor-pointer" key={index}>
