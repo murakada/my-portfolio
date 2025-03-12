@@ -27,43 +27,35 @@ export default function GetInTouch() {
   };
 
   // Handle form submission
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setLoading(true);
-    setError("");
-    setSuccess("");
-
+  async function handleSubmit(event) {
+    event.preventDefault();
+  
+    const formData = {
+      name: event.target.name.value,
+      email: event.target.email.value,
+      subject: event.target.subject.value,
+      message: event.target.message.value,
+    };
+  
     try {
-      // Send form data to the API route
-      const response = await fetch("../api/contact", {
-        method: "POST",
+      const response = await fetch('/api/contact', {
+        method: 'POST',
         headers: {
-          "Content-Type": "application/json",
+          'Content-Type': 'application/json',
         },
         body: JSON.stringify(formData),
       });
-
-      // Check if the response is successful
-      if (response.ok) {
-        const data = await response.json();
-        setSuccess("Message sent successfully!");
-        setFormData({
-          name: "",
-          email: "",
-          subject: "",
-          message: "",
-        });
-      } else {
-        const errorData = await response.json();
-        setError(errorData.message || "Failed to send message.");
+  
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
       }
+  
+      const result = await response.json(); // Error occurs here
+      console.log("Success:", result);
     } catch (error) {
       console.error("Error:", error);
-      setError("An error occurred. Please try again.");
-    } finally {
-      setLoading(false);
     }
-  };
+  }
 
   return (
     <section
